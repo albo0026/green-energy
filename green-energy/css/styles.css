@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yeseva+One&display=swap');
+
+.masthead {
+    background-image: url(../img/masthead.jpg);
+    background-position: center;
+    height: 15rem;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 6rem;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem;
+    color: #38b000;
+}
+
+nav ul li a:hover {
+    background-color: #38b000;
+    color: whitesmoke;
+    border: 1px solid #ccc;
+}
+
+#controls li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 3rem;
+    cursor: pointer;
+}
+
+#active {
+    background-color: #38b000;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 2rem;
+}
+
+img {
+    width: 25rem;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 2rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #38b000;
+}
